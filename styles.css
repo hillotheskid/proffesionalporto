@@ -2,7 +2,7 @@
 
 .image-placeholder--small {
     transform: translate(20px, 0px);
-    background-image: url("public/flower2.jpg");
+    background-image: url("/flower2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -10,25 +10,25 @@
 
 .image-placeholder--tall {
     transform: translate(-20px, 20px);
-    background-image: url("public/flower3.jpg");
+    background-image: url("/flower3.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .image-placeholder--botanical {
-    background-image: url("public/flower1.png");
+    background-image: url("/flower1.png");
     background-size: cover;
     background-position: center;
 }
 
 .image-placeholder--landscape {
-    background-image: url("public/n1.jpg");
+    background-image: url("/n1.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .image-placeholder--forest {
-    background-image: url("public/n2.jpg");
+    background-image: url("/n2.jpg");
     background-size: cover;
     background-position: center;
 }
