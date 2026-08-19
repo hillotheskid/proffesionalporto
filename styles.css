@@ -1,0 +1,34 @@
+:root{--ink:#080808;--paper:#fafafa;--soft:#dedede;--accent:#d9f5ed;--line:#bdbdbd;--display:Arial,Helvetica,sans-serif;--body:Arial,Helvetica,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--paper)}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.35}a{color:inherit}h1,h2,p{margin:0}.hero{min-height:100vh;display:grid;place-items:center;position:relative;overflow:hidden;background:var(--paper)}.hero__texture{position:absolute;inset:0;background-image:radial-gradient(#111 1px,transparent 1px),linear-gradient(115deg,transparent 0 14%,rgba(0,0,0,.11) 28%,transparent 44%);background-size:7px 7px,100% 100%;opacity:.62;mask-image:linear-gradient(90deg,#000 0,transparent 70%)}.hero__content{position:relative;text-align:center;text-transform:uppercase}.eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(4.2rem,10vw,9rem);line-height:.84;letter-spacing:-.07em;text-transform:none}.hero__subtitle{font-size:clamp(1rem,2vw,1.45rem);font-weight:700;margin-top:1.75rem;letter-spacing:.02em}.scroll-hint{position:absolute;bottom:2rem;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}.scroll-hint span{display:inline-block;font-size:1.3rem;margin-left:.5rem;animation:bob 1.8s ease-in-out infinite}.section{max-width:1280px;margin:auto;padding:8rem 6vw}.section-heading{display:flex;align-items:baseline;gap:1rem;margin-bottom:3rem}.section-heading span{font-size:.7rem;letter-spacing:.12em;color:#555}.section-heading h2,.contact h2{font-size:clamp(3rem,7vw,6.6rem);line-height:.9;letter-spacing:-.075em}.about__grid,.skills{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:center}.contact{display:block}.about__copy{font-size:clamp(1.5rem,3vw,3rem);line-height:1.08;letter-spacing:-.04em;text-align:center}.collage{min-height:550px;position:relative}.image-placeholder{display:grid;place-items:center;color:#777;background-color:#e9e9e9;background-image:radial-gradient(#555 1px,transparent 1px);background-size:6px 6px;text-align:center;font-size:.7rem;letter-spacing:.12em}.image-placeholder span{border:1px solid #777;padding:.6rem 1rem;background:#eee}.image-placeholder--small{position:absolute;width:42%;height:35%;top:0;left:7%}.image-placeholder--tall{position:absolute;width:48%;height:61%;top:34%;left:7%;background-color:#cfcfcf}.image-placeholder--botanical{position:absolute;width:41%;height:80%;right:4%;top:10%;background-color:var(--accent);background-size:9px 9px}.skills{padding-top:2rem}.skills__visual{display:flex;flex-direction:column}.image-placeholder--landscape{height:340px;background-color:#d4d4d4}.image-placeholder--forest{height:340px;background-color:#8b8b8b;background-image:radial-gradient(#222 1px,transparent 1px)}.skills__copy{padding:2rem}.section-heading--right{margin-bottom:1rem}.lead{color:#666;font-size:1.5rem;margin:0 0 2rem}.skills__copy>p:not(.lead){font-size:clamp(1.15rem,1.7vw,1.65rem);text-align:center;line-height:1.18;margin-top:1.5rem}.contact{padding-top:7rem;padding-bottom:10rem}.contact__copy h2{font-size:clamp(3.2rem,6vw,6rem);margin:1.5rem 0 3rem}.contact-list{list-style:none;padding:0;margin:0;display:grid;gap:.75rem;font-size:1.15rem}.contact-list li{display:flex;gap:.7rem;flex-wrap:wrap}.contact-list strong{min-width:6rem}.contact-list a{text-decoration-thickness:1px;text-underline-offset:4px}.network-art{height:420px;position:relative}.node{position:absolute;width:90px;height:90px;border:7px solid var(--ink);border-radius:50%;background:var(--paper)}.node:after{content:'';position:absolute;width:27px;height:27px;border:5px solid var(--ink);border-radius:50%;left:25px;top:12px}.node:before{content:'';position:absolute;width:48px;height:25px;border:5px solid var(--ink);border-bottom:0;border-radius:50% 50% 0 0;left:14px;bottom:10px}.node--a{left:42%;top:34%;width:150px;height:150px}.node--a:after{left:49px;top:25px}.node--a:before{left:29px;bottom:17px;width:80px;height:48px}.node--b{left:8%;top:44%}.node--c{right:4%;top:34%}.node--d{left:33%;top:0}.node--e{right:22%;top:3%;width:66px;height:66px}.node--e:after{width:18px;height:18px;left:18px;top:8px;border-width:4px}.node--e:before{width:34px;height:17px;left:10px;bottom:7px;border-width:4px}.node--f{left:31%;bottom:3%;width:64px;height:64px}.line{position:absolute;height:7px;background:var(--ink);transform-origin:left center}.line--one{width:180px;left:18%;top:52%;transform:rotate(-18deg)}.line--two{width:145px;left:54%;top:48%;transform:rotate(-40deg)}.line--three{width:160px;left:50%;top:37%;transform:rotate(22deg)}.line--four{width:110px;left:44%;top:33%;transform:rotate(-75deg)}.line--five{width:130px;left:44%;top:66%;transform:rotate(55deg)}footer{display:flex;justify-content:space-between;padding:1.5rem 6vw;border-top:1px solid var(--line);font-size:.8rem;letter-spacing:.04em}footer a{text-decoration:none;font-weight:700}.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s ease}.reveal.is-visible{opacity:1;transform:none}@keyframes bob{50%{transform:translateY(7px)}}@media(max-width:760px){body{font-size:16px}.hero{min-height:82vh}.hero h1{font-size:clamp(3.5rem,17vw,6rem)}.section{padding:5rem 1.25rem}.about__grid,.skills,.contact{grid-template-columns:1fr;gap:3rem}.about__copy{text-align:left;font-size:2rem}.collage{min-height:430px}.skills{padding-top:1rem}.skills__copy{padding:0}.section-heading h2,.contact h2{font-size:3.6rem}.network-art{height:330px}.node--a{left:34%}.node--b{left:0}.node--c{right:0}footer{flex-direction:column;gap:.6rem;padding:1.25rem}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+.image-placeholder--small {
+    transform: translate(20px, 0px);
+    background-image: url("public/flower2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.image-placeholder--tall {
+    transform: translate(-20px, 20px);
+    background-image: url("public/flower3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-placeholder--botanical {
+    background-image: url("public/flower1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-placeholder--landscape {
+    background-image: url("public/n1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.image-placeholder--forest {
+    background-image: url("public/n2.jpg");
+    background-size: cover;
+    background-position: center;
+}
